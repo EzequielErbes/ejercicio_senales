@@ -1,6 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://dncxujshbxt8f"]
 
-[ext_resource type="Texture2D" uid="uid://c0f3vvctal5va" path="res://assets/block_violet.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c0f3vvctal5va" path="res://ejercicio_senales/assets/block_violet.png" id="1"]
 
 [node name="VioletGenerator" type="TextureButton"]
+offset_left = 116.0
+offset_top = 100.0
+offset_right = 244.0
+offset_bottom = 228.0
 texture_normal = ExtResource("1")

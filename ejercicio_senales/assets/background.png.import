@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgcw0vs3drey1"
-path="res://.godot/imported/background.png-1fdba8b6a966ce2c2ffc607f7c096e95.ctex"
+path="res://.godot/imported/background.png-8c3928932a7b96a5c9cc5e730c99a1c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/background.png"
-dest_files=["res://.godot/imported/background.png-1fdba8b6a966ce2c2ffc607f7c096e95.ctex"]
+source_file="res://ejercicio_senales/assets/background.png"
+dest_files=["res://.godot/imported/background.png-8c3928932a7b96a5c9cc5e730c99a1c4.ctex"]
 
 [params]
 
