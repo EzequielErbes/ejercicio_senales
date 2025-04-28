@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dncxujshbxt8f"]
+[gd_scene load_steps=3 format=3 uid="uid://dncxujshbxt8f"]
 
 [ext_resource type="Texture2D" uid="uid://c0f3vvctal5va" path="res://ejercicio_senales/assets/block_violet.png" id="1"]
+[ext_resource type="Script" path="res://ejercicio_senales/scenes/Buttons/VioletGenerator/violet_generator.gd" id="2_81e6m"]
 
 [node name="VioletGenerator" type="TextureButton"]
 offset_left = 116.0
@@ -8,3 +9,6 @@ offset_top = 100.0
 offset_right = 244.0
 offset_bottom = 228.0
 texture_normal = ExtResource("1")
+script = ExtResource("2_81e6m")
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]
