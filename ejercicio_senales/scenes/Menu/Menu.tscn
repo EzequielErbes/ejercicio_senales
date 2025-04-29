@@ -42,7 +42,7 @@ shape = SubResource("1")
 [node name="CountLabel" type="Label" parent="."]
 offset_left = 488.0
 offset_top = 95.0
-offset_right = 668.0
+offset_right = 689.0
 offset_bottom = 144.0
 text = "Cantidad de Instancias:
 "
