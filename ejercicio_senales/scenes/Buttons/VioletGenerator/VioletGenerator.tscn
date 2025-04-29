@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://c0f3vvctal5va" path="res://ejercicio_senales/assets/block_violet.png" id="1"]
 [ext_resource type="Script" path="res://ejercicio_senales/scenes/Buttons/VioletGenerator/violet_generator.gd" id="2_81e6m"]
 
-[node name="VioletGenerator" type="TextureButton"]
+[node name="VioletGenerator" type="TextureButton" groups=["blocks"]]
 offset_left = 116.0
 offset_top = 100.0
 offset_right = 244.0
