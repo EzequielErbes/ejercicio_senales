@@ -10,13 +10,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-
-func _on_reset_button_down():
-	for blocks in get_tree().get_nodes_in_group("block"):
-		blocks.delete()
-
-	
-	
-	
-	
-	pass # Replace with function body.
+func _on_button_down():
+	var blocks = get_tree().get_nodes_in_group("blocks")
+	for block in blocks:
+		block.delete()
