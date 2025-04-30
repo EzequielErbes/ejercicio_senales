@@ -26,3 +26,7 @@ func _ready():
 func delete():
 	instancesCount = 0
 	count_label.text = INSTANCES_TEXT + str(instancesCount)
+
+
+func _on_reset_pressed():
+	delete()

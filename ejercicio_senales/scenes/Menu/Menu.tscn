@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bfoq3euaj21i3"]
+[gd_scene load_steps=7 format=3 uid="uid://bfoq3euaj21i3"]
 
 [ext_resource type="Texture2D" uid="uid://dgcw0vs3drey1" path="res://ejercicio_senales/assets/background.png" id="1"]
+[ext_resource type="Script" path="res://ejercicio_senales/scenes/Menu/menu.gd" id="1_tff1d"]
 [ext_resource type="PackedScene" uid="uid://dncxujshbxt8f" path="res://ejercicio_senales/scenes/Buttons/VioletGenerator/VioletGenerator.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://nwbl03ueqyor" path="res://ejercicio_senales/scenes/Buttons/RedGenerator/RedGenerator.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://cey6fuiebmhpe" path="res://ejercicio_senales/scenes/Buttons/Reset/Reset.tscn" id="4"]
@@ -9,6 +10,7 @@
 size = Vector2(1519.98, 67.3924)
 
 [node name="Menu" type="Node2D"]
+script = ExtResource("1_tff1d")
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(576, 321)
@@ -45,3 +47,5 @@ offset_top = 69.0
 offset_right = 689.0
 offset_bottom = 114.0
 text = "Cantidad de instancias:"
+
+[connection signal="pressed" from="Reset" to="." method="_on_reset_pressed"]
