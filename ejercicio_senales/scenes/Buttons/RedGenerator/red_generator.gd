@@ -3,6 +3,7 @@ extends TextureButton
 @onready var block_red_scene = preload("res://ejercicio_senales/scenes/Blocks/Red/BlockRed.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
 	pass # Replace with function body.
 
 
